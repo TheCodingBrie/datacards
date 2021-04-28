@@ -18,7 +18,7 @@ The project is also meant to be a useful application for Warhammer 40k players d
 
 ## 2 - USED LANGUAGE AND TECHS
 
-    I will start the project with using HTML, CSS, Javascript, Jinga, SQL and Python in a flask environment. The tools might change along the way.
+    I will start the project with using HTML, CSS, Javascript, Jinga, SQL and Python in a flask environment. The tools might change along the way. 
 
     I am also strongly considering involving a framework like boostrap to facilitate the design of the interface.
 
