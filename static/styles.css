@@ -1,0 +1,19 @@
+nav #logo {
+    /* size for brand */
+    font-size: xx-large;
+}
+
+
+/* Colors for brand */
+
+nav .navbar-brand .black {
+    color: #000000;
+}
+
+nav .navbar-brand .red {
+    color: #ea433b;
+}
+
+nav #the {
+    font-size: small;
+}
