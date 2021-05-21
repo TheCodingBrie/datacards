@@ -1,3 +1,4 @@
-nav .navbar-brand .blue {
-    color: #ea433b;
+#title {
+    color: red;
+    font-size: larger;
 }
