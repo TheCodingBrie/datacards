@@ -1,0 +1,9 @@
+{% extends "layout.html.j2" %}
+
+{% block title %}
+    Error
+{% endblock %}
+
+{% block body %}
+    <img alt="{{ top }}" src="https://api.memegen.link/images/custom/{{ top | urlencode }}/Verdict_:_HERESY~n(Also, {{ bottom | urlencode }}).png?background=https://i.scdn.co/image/ab67706c0000bebb03f330eb3b06aa03fe3db67f" title="{{ top }}">
+{% endblock %}

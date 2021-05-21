@@ -1,7 +1,13 @@
-from flask import ...
+from flask import render_template
 
-def errors(message, code=400)
+def error(message, code=400):
 
-    return render_template("errors.html")
+    def escape(s):
+       
+        for old, new in [("-", "--"), (" ", "-"), ("_", "__"), ("?", "~q"),
+                         ("%", "~p"), ("#", "~h"), ("/", "~s"), ("\"", "''")]:
+            s = s.replace(old, new)
+        return s
 
-    https://api.memegen.link/images/custom/Error_400/Verdict_:_HERESY~n(Also: Not logged in).png?background=https://i.scdn.co/image/ab67706c0000bebb03f330eb3b06aa03fe3db67f
+    return render_template("error.html", top=code, bottom=escape(message)), code
+ 
