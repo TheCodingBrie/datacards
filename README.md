@@ -1,3 +1,5 @@
+# This project is pushed back a moment while I focus on learning REACT / JS. It will be transfered to that technology
+
 This project is made for cd50, it is my final project for this course.
 
 The project is also meant to be a useful application for Warhammer 40k players during their games.
@@ -16,7 +18,7 @@ The project is also meant to be a useful application for Warhammer 40k players d
     This will allow me to build a user interface and create the basics. I will then implement a stratagem
     function where users will be able to filter the stratagems they have available by army, units and phase.
 
-## 2 - USED LANGUAGE AND TECHS
+## 2 - USED LANGUAGE AND STACK
 
     I will start the project with using HTML, CSS, Javascript, Jinga, SQL and Python in a flask environment. The tools might change along the way. 
 
